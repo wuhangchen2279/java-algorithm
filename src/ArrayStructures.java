@@ -1,5 +1,3 @@
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 public class ArrayStructures {
 	private int[] theArray = new int[50];
 	

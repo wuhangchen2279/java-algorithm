@@ -1,5 +1,3 @@
-import java.lang.management.ThreadInfo;
-
 public class Link {
 
     public String bookName;
@@ -43,7 +41,7 @@ class LinkList{
     }
 
     public boolean isEmpty() {
-        return(firstLink == null); 
+        return firstLink == null; 
     }
 
     public void insertFirstLink(String bookName, int milllionsSold) {
