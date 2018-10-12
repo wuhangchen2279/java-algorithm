@@ -2,6 +2,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BinarySearchTree",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "BinarySearchTree",
+            "args": "",
+            "projectName": "JavaAlgorithm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DoubleEndedLinkedList",
             "request": "launch",
             "cwd": "${workspaceFolder}",
