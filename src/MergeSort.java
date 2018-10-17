@@ -8,7 +8,7 @@ public class MergeSort{
         int mid = n/2;
         int[] left = new int[mid];
         int[] right = new int[n-mid];
-        for(int i=o; i<mid; i++) {
+        for(int i=0; i<mid; i++) {
             left[i] = array[i];
         }
         for(int i=mid; i<n; i++) {
